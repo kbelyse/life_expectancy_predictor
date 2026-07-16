@@ -1,0 +1,24 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Flutter
+summative/FlutterApp/**/.dart_tool/
+summative/FlutterApp/**/build/
+summative/FlutterApp/**/.flutter-plugin-registrant/
+summative/FlutterApp/**/ios/Pods/
+summative/FlutterApp/**/*.iml
+
+# OS
+.DS_Store
+.malware-scan-exempt
