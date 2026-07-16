@@ -24,7 +24,9 @@ linear_regression_model/
 
 ## API
 
-Live Swagger docs: **[add your Render URL here]/docs**
+Live Swagger docs: **https://life-expectancy-predictor-2mhb.onrender.com/docs**
+
+(This is a free Render instance, so it spins down after inactivity. The first request after a while can take up to 50 seconds to wake it back up, after that it responds normally.)
 
 - `POST /predict` — takes the 19 input indicators and returns a predicted life expectancy
 - `POST /retrain` — upload a CSV in the same format as the original dataset to retrain the model on the combined data

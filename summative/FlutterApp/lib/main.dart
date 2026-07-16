@@ -3,9 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
-// Update this once the API is deployed on Render, e.g.
-// "https://life-expectancy-api-xxxx.onrender.com"
-const String apiBaseUrl = "https://life-expectancy-api.onrender.com";
+const String apiBaseUrl = "https://life-expectancy-predictor-2mhb.onrender.com";
 
 void main() {
   runApp(const LifeExpectancyApp());

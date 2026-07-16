@@ -42,7 +42,7 @@ ALLOWED_ORIGINS = [
     "http://localhost:8080",
     "http://127.0.0.1",
     "http://127.0.0.1:8080",
-    "https://life-expectancy-api-*.onrender.com",
+    "https://life-expectancy-predictor-2mhb.onrender.com",
 ]
 
 app.add_middleware(
