@@ -33,7 +33,7 @@ This runs on Render's free tier, so it spins down after a period of inactivity. 
 
 ## Models compared
 
-I trained and evaluated three regression approaches on the same train/test split: a stochastic gradient descent linear regression, a Random Forest, and a Decision Tree. The Random Forest came out on top on both MSE and R2, so that's the one saved and served by the API. The full comparison, loss curves, and the reasoning behind each choice are in the notebook.
+I trained and evaluated four regression approaches on the same train/test split: two gradient descent linear regressions (a batch gradient descent version I wrote from scratch, and scikit-learn's `SGDRegressor` for stochastic gradient descent), a Decision Tree, and a Random Forest. The two linear models land in almost the same place (R2 around 0.81 to 0.82), which is expected since they fit the same model two ways, and both trail the tree models because the relationships here are not linear. The Random Forest came out on top on both MSE and R2, so that's the one saved and served by the API. The full comparison, loss curves, and the reasoning behind each choice are in the notebook.
 
 ## Running the Flutter app
 
