@@ -56,4 +56,4 @@ Then open `http://127.0.0.1:8000/docs` for Swagger UI.
 
 ## Video demo
 
-Video here
+https://youtu.be/Nxa8ahWkNY4

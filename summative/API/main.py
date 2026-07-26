@@ -177,3 +177,4 @@ async def retrain(file: UploadFile = File(...)):
         "test_mse": round(float(mse), 3),
         "test_r2": round(float(r2), 3),
     }
+
